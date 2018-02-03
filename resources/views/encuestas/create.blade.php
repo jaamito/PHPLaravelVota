@@ -20,8 +20,13 @@
                     {{ csrf_field() }}
     
                     <div class="form-group">
-                        <label for="titulo">Titulo de la pregunta</label>
-                        <input type="text" name="titulo" id="titulo" class="form-control">
+                        <label for="titulo">Harry potter</label>
+                        <!-- Text para escribir el value "Recuerda el valor predeterminado es el value" -->
+                        <input type="checkbox" name="titulo" value="1" id="titulo" class="form-control">
+                        <label for="titulo">star wars</label>
+                        <!--Checkbox para marcar una casilla "Recuerda si hay 2 checks con value fijo cogera el que marques" -->
+                        <input type="checkbox" name="titulo" value="0" id="titulo" class="form-control">
+                    
                     </div>
                     <div class="form-group text-center">
                         <button type="submit" class="btn btn-primary" style="padding:8px 100px;margin-top:25px;">
